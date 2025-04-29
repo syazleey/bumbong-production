@@ -69,6 +69,8 @@ section:nth-child(even) {
     font-weight: bold;
     transition: background 0.3s ease;
     display: inline-block;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .button:hover {
