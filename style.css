@@ -6,7 +6,7 @@ nav a::after { content: ''; position: absolute; width: 0; height: 2px; display: 
 nav a:hover::after { width: 100%; }
 section { padding: 80px 20px; text-align: center; opacity: 0; transform: translateY(20px); animation: fadeInUp 1s forwards; }
 section:nth-child(even) { background: #f2f2f2; }
-.hero { background: #333; color: white; padding: 120px 20px; }
+.hero { background: url('hero-background.jpg') no-repeat center/cover;color: white; padding: 120px 20px; }
 .button { background: black; color: white; padding: 12px 30px; text-decoration: none; border-radius: 30px; font-weight: bold; transition: background 0.3s ease; display: inline-block; }
 .button:hover { background: #444; }
 .grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-top: 40px; }
