@@ -51,14 +51,15 @@ section:nth-child(even) {
 }
 
 .hero {
-    background: black;
-    color: white;
-    padding: 120px 20px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background: url('hero-background.jpg') no-repeat center/cover;
+  color: white;
+  padding: 120px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 .button {
     background: black;
