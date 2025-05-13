@@ -51,7 +51,7 @@ section:nth-child(even) {
 }
 
 .hero {
-  background: url('herobackground.png') no-repeat center/cover, #111;
+  background: url('mcp1.png') no-repeat center/cover, #111;
   color: white;
   padding: 120px 20px;
   min-height: 100vh;
