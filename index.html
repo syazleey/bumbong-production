@@ -1,83 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bumbong Production</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bumbong Production</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-
-<header>
+  <header>
     <h1>Bumbong Production</h1>
     <nav>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#work">Portfolio</a>
-        <a href="#contact">Contact</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-</header>
+  </header>
 
-<section class="hero">
-  <h2>Welcome to Bumbong Production</h2>
-  <p>Photo and Video Services</p>
-  <a href="#contact" class="button">Get in Touch</a>
-</section>
-
-<section id="about">
-    <h2>About Us</h2>
-    <p>From heartfelt weddings to bold commercial shoots, Bumbong PhotoDesign brings your story to life through vibrant, timeless photography.</p>
-</section>
-
-<section id="services">
-    <h2>Our Services</h2>
-    <div class="grid">
-        <div class="card">
-            <h3>Photobooth</h3>
-            <p>Fun, vibrant, and perfect for your events!</p>
-        </div>
-        <div class="card">
-            <h3>Corporate Events</h3>
-            <p>Professional coverage to capture every important moment.</p>
-        </div>
-        <div class="card">
-            <h3>Weddings & Portraits</h3>
-            <p>Timeless shots that you will treasure forever.</p>
-        </div>
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Welcome to Bumbong Production</h2>
+      <p>Photo and Video Services</p>
+      <a href="#contact" class="button">Get in Touch</a>
     </div>
-</section>
+  </section>
 
-<section id="work">
+  <section id="about">
+    <h2>About</h2>
+    <p>We are a Malaysian-based photo and video production team, capturing moments with style and heart.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Event Photography</li>
+      <li>Photobooth Setup</li>
+      <li>Corporate Videos</li>
+      <li>Live Multi-Cam Production</li>
+    </ul>
+  </section>
+
+  <section id="portfolio">
+    <h2>Recent Work</h2>
     <div class="gallery">
-    <img src="corpevent1.png" alt="Event 1">
-    <img src="wedding1.png" alt="Wedding">
-    <img src="photobooth1.png" alt="Photobooth">
-  </div>
-</section>
+      <img src="mcp1.png" alt="Sample work 1">
+      <img src="wedding1.png" alt="Sample work 2">
+      <video controls>
+        <source src="demo-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
 
-<section id="contact">
+  <section id="contact">
     <h2>Contact Us</h2>
     <form>
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit" class="button">Send</button>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
     </form>
-<div class="social-icons">
-  <a href="https://facebook.com/bumbongphotodesign" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="30">
-  </a>
-  <a href="https://instagram.com/bumbongphotodesign" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram" width="30">
-  </a>
-</div>
+    <div class="social">
+      <a href="https://facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+      <a href="https://instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+    </div>
+  </section>
 
-</section>
-
-<footer>
-    <p>Bumbong Production | B-2-10 (1st Floor), Jln SP 11/1, Seri Pristana, Sungai Buloh 47000 | +60182362850</p>
-</footer>
-
+  <footer>
+    <p>&copy; 2025 Bumbong Production</p>
+  </footer>
 </body>
 </html>
